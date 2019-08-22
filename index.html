@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+    <title>Pixel Art Maker - John Antezana IPND</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>Pixel Art Maker</h1>
+
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker">
+        Grid Height:
+        <input type="number" id="inputHeight" name="height" min="10" value="10">
+        Grid Width:
+        <input type="number" id="inputWidth" name="width" min="10" value="10">
+        <input type="submit">
+    </form>
+
+    <h2>Pick A Color</h2>
+    <input type="color" id="colorPicker">
+
+    <h2>Design Canvas</h2>
+    <table id="pixelCanvas"></table>
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+    <script src="js/designs.js"></script>
+</body>
+</html>
